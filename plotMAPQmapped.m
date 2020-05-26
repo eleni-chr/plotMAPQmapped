@@ -96,7 +96,7 @@ saveas(fig,'MAPQmapped.svg'); %save figure as an SVG file.
 close
 
 %ALTERNATIVE PLOT
-%Supblot 1.
+%Subplot 1.
 fig=figure('Position', get(0, 'Screensize')); %make figure full-screen.
 ax(1)=subplot(1,2,1);
 x2=categorical(categories([1 2 3]));
